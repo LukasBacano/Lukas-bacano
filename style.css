@@ -1,0 +1,227 @@
+*html{
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    background-color: #2f2f2f;
+    
+    color: white;
+    background-image: url(Frontpage.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: stretch;  
+    
+  
+    
+}
+h1{
+    font-size: 90px;
+    font-family: rig-solid-bold-fill, sans-serif;
+    padding-top: 0px;
+    padding-left: 0px;
+    letter-spacing: 10px;
+    font-weight: 700px;
+    color: rgb(233, 233, 233);  
+    line-height: 130px;
+    position: relative; left: -30px; top: -70px;
+}
+p{
+   font-size: 18px;
+    
+}
+a{
+    color:white;
+
+}
+header{
+
+    width: 1024;
+    text-align: center;
+    height: 10px;
+
+   
+}
+.navbar{
+    background-color: rgba(0, 0, 0, 0.527);
+    height: 40px;
+    text-align: center;
+    padding-top: 10px;
+    width: 1024px;
+    position: fixed;
+    margin: auto;
+    z-index: 5;
+    
+}
+nav a{
+    text-decoration: none;
+    font-size: 15px;
+    padding-right: 40px;
+    padding-left: 40px;
+    color: white
+
+}
+main{
+    height: 400px;
+    text-align: center;
+    padding-top: 40px;
+    padding-right: 500px;
+    padding-left: 0px;
+}
+
+.container{
+
+    margin-left: auto;
+    margin-right: auto;
+    width: 1024px;
+    text-align: center;
+
+}
+
+.boxes{
+    background-color: rgba(161, 241, 154, 0);
+    /* display: flex; */ 
+    justify-content:  10px;
+    font-size: 50px;
+    color: black;
+    text-decoration: none;
+    
+}
+.kontaktbox{
+    background-color: rgba(255, 255, 255, 0.753);
+    height:250px;
+    width: 45%;
+    border: solid 5px black;
+    margin: 20px 0px 20px 0px;
+    position: relative;top: -50px;
+    color: black;
+    padding-left: -100px;
+    float:left;
+
+}
+.soscolombia{
+    background-color: rgba(255, 255, 255, 0.753);
+    height: 560px;
+    width: 45%;
+    float: right;
+    /*padding-top: -100px;*/
+    border: solid 5px black;
+    margin: 20px 0px 20px 0px;
+    position: relative;top: -360px;
+    color: black;
+    float:right;
+    
+}
+.billedbox{
+    background-color: rgba(255, 255, 255, 0.753);
+    height: 450px;
+    width: 45%;
+    border: solid 5px black;
+    margin: 20px 0px 20px 0px;
+    position: relative;top: -50px;
+    color: black;
+    float: left;
+}
+.billedbox img{
+    height:250px;
+}
+.spillekrogen{
+    background-color: rgba(255, 255, 255, 0.753);
+    height: 450px;
+    width: 45%;
+    border: solid 5px black;
+    position: relative;top: -340px;
+    color: black;
+    float: right;
+}
+.spillekrogen img{
+    height: 300px;
+}
+span:hover{
+    height: 16px;
+    color: rgb(231, 231, 231);
+    font-size: 16px;
+    z-index: 5;
+
+    
+}
+.dropdown {
+    position: relative;
+    display: inline-block;
+    z-index: 4;
+    
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f94f;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 12px;
+    z-index: 1;
+    top:-5px;
+  }
+  .prog{
+    background-color: transparent;
+    border: 0px;
+    color: white;
+  }
+  .dropdown:hover .dropdown-content {
+    display: block;
+    background-color: rgba(0, 0, 0, 0.527);
+    margin-top: 21px;
+  }
+
+
+.maps{
+    padding-bottom: 100px;
+}
+#hjem:hover{
+    font-size: 16px;
+    color: rgb(231, 231, 231)
+}
+.dropdown-content:hover{
+    font-size: 16px;
+    color: rgb(231, 231, 231)
+}
+#billeder:hover{
+    font-size: 16px;
+    color: rgb(231, 231, 231)
+}
+#illustrationer:hover{
+    font-size: 16px;
+    color: rgb(231, 231, 231)
+}
+#lukasbrevkas:hover{
+    font-size: 16px;
+    color: rgb(231, 231, 231)
+}
+#ommig:hover{
+    font-size: 16px;
+    color: rgb(231, 231, 231)
+}
+#ommig:hover{
+    font-size: 16px;
+    color: rgb(231, 231, 231)
+}
+footer{
+    background-color: rgba(0, 0, 0, 0.459);
+    height: 100px;
+    padding-bottom: 2px;
+    padding-right: 2px;
+    padding-left: 2px;
+    position: relative; bottom: -800px;
+}
+#allebilleder{
+    padding: 0px, 0px, 0px, 0px;
+    float: left;
+    align-items: center;
+    position: relative; bottom: 1050px; left: 100px;
+   
+}
+/*position: relative; top: 768px;
+#footertxt{
+    text-align: center;
+    float: left;
+    max-lines: 10;
+}
+*/
